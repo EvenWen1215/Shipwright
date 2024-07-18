@@ -1081,7 +1081,7 @@ void DrawEnhancementsMenu() {
 
         UIWidgets::Spacer(0);
 
-        if (ImGui::BeginMenu(u8"显示"))
+        if (ImGui::BeginMenu(u8"视频"))
         {
             if (ImGui::BeginMenu("Mods")) {
                 UIWidgets::PaddedEnhancementCheckbox("Use Alternate Assets", CVAR_ENHANCEMENT("AltAssets"), false, false);
